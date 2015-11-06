@@ -6,7 +6,7 @@ from tm1637 import TM1637
 
 IO.setmode(IO.BCM)
 
-Display = TM1637(23, 24, 2)
+Display = TM1637(26, 16, 2)
 
 ip = [sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]]
 
